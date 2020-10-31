@@ -4,14 +4,14 @@ go
 /*Insertando datos de Usuarios*/
 
 Insert Into Usuarios
-(DNI,AP_Paterno,Ap_Materno,Nombres,Usuario,Contraseña)
+(DNI,AP_Paterno,Ap_Materno,Nombres,Usuario,Contraseï¿½a)
 Values
 ('72003175','Ore', 'Gamarra','Abraham Benjamin','171064','12345'),
-('72003173','Muñoz','Pacheco','Christian Fernando','171565','12345'),
+('72003173','Muï¿½oz','Pacheco','Christian Fernando','171565','12345'),
 ('72003172','Quispe','Chambilla','Carlos Enrique','174447','12345'),
 ('74473344','Mamani','Chino','Ruben','163809','12345'),
-('72003171','Muñoz','Muñoz','Willy Rodrigo','161369','12345'),
-('72003170','Nuñez','Hualla','Alfredo','155192','12345'),
+('72003171','Muï¿½oz','Muï¿½oz','Willy Rodrigo','161369','12345'),
+('72003170','Nuï¿½ez','Hualla','Alfredo','155192','12345'),
 ('71251512','Medrano','Valencion','Ivan Cesar','202021','12345'),
 ('71251510','Quintanilla','Portugal','Roxana Lisette','202022','12345'),
 ('71251511','Ibarra','Zambrano','Waldo Elio','202020','12345')
@@ -55,7 +55,7 @@ values
 /*Insertando datos a Muebles*/
 drop table Muebles
 Insert Into  Muebles
-(Cod_Mueble,Cod_Ambiente,Drescripcion,Marca,Modelo,Caracteristicas,Estado,Observacion,Fecha_Compra,Valor_Historico)
+(Cod_Mueble,Cod_Ambiente,Descripcion,Marca,Modelo,Caracteristicas,Estado,Observacion,Fecha_Compra,Valor_Historico)
 values
 ('746461240049','A001','ESCRITORIO DE MELAMINA','X','X','MELAMINA','BUEN','X','31/12/2019',1000),
 ('74648187B569','A001','SILLA FIJA DE METAL','X','METAL','BUEN','X','X','31/12/2019',1000),
@@ -173,7 +173,7 @@ values
 /*Insertando datos a Electronicos*/
 
 Insert Into  Equipos_Electronicos
-(Cod_Electronico,Cod_Ambiente,Drescripcion,Marca,Modelo,Caracteristicas,Estado,Observacion,Fecha_Compra,Valor_Historico)
+(Cod_Electronico,Cod_Ambiente,Descripcion,Marca,Modelo,Caracteristicas,Estado,Observacion,Fecha_Compra,Valor_Historico)
 values
 ('740899505208','A001','CPU','LENOVO','THINKSTATION P320','INTEL XEON E3-1230 8GB RAM 512GB HDD','BUEN','NINGUNA','31/12/2019',4000),
 ('740880370045','A001','MONITOR','HP','V221','"PANTALLA DE 19"""','BUEN','NINGUNA','31/12/2019',4000),
@@ -282,7 +282,7 @@ values
 
 /*INSERTANDO TABLA OTROS*/
 Insert Into Otros_Bienes
-(Cod_Otros,Cod_Ambiente,Drescripcion,Marca,Modelo,Caracteristicas,Estado,Observacion,Fecha_Compra,Valor_Historico)
+(Cod_Otros,Cod_Ambiente,Descripcion,Marca,Modelo,Caracteristicas,Estado,Observacion,Fecha_Compra,Valor_Historico)
 Values
 ('1','A003','Carro','AUDI','A4 Allroad Quattro','XXXXXXXX','BUEN','NINGUNA','31/12/2019',159082),
 ('2','A003','Carro','CHEVROLET','Camaro','XXXXXXXX','BUEN','NINGUNA','31/12/2019',206047)

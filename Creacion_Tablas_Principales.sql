@@ -9,7 +9,7 @@ create table Usuarios(
   Ap_Materno varchar(40) NOT NULL,
   Nombres varchar (60) NOT NULL,
   Usuario	varchar(40),
-  Contraseña	varchar(40),
+  Contraseï¿½a	varchar(40),
   PRIMARY KEY (DNI)
  )
  go
@@ -54,7 +54,7 @@ create table Usuarios(
 create table Muebles(
   Cod_Mueble varchar(20),
   Cod_Ambiente varchar(6),
-  Drescripcion varchar(200),
+  Descripcion varchar(200),
   Marca varchar(40),
   Modelo varchar(40),
   Caracteristicas varchar(200),
@@ -72,7 +72,7 @@ create table Muebles(
 create table Equipos_Electronicos(
   Cod_Electronico varchar(20),
   Cod_Ambiente varchar(6),
-  Drescripcion varchar(200),
+  Descripcion varchar(200),
   Marca varchar(40),
   Modelo varchar(40),
   Caracteristicas varchar(200),
@@ -90,7 +90,7 @@ create table Equipos_Electronicos(
  create table Otros_Bienes(
   Cod_Otros varchar(20),
   Cod_Ambiente varchar(6),
-  Drescripcion varchar(200),
+  Descripcion varchar(200),
   Marca varchar(40),
   Modelo varchar(40),
   Caracteristicas varchar(200),
